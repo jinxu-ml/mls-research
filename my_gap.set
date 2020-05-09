@@ -1,0 +1,6 @@
+# SCIP version 7.0.1
+
+# solving stops, if the relative gap = |primal - dual|/MIN(|dual|,|primal|) is below the given value, the gap is 'Infinity', if primal and dual bound have opposite signs
+# [type: real, advanced: FALSE, range: [0,1.79769313486232e+308], default: 0]
+limits/gap = 0.05 #0.0001
+
